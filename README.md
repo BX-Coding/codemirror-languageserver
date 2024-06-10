@@ -1,8 +1,6 @@
-# Language Server Plugin for CodeMirror 6
+# Language Server Plugin for Patch & CodeMirror 6
 
-[![npm version](https://badge.fury.io/js/codemirror-languageserver.svg)](https://www.npmjs.com/package/codemirror-languageserver)
-
-This plugin enables code completion, hover tooltips, and linter functionality by connecting a CodeMirror 6 editor with a language server over WebSocket.
+This plugin enables custom stateful code completion, hover tooltips, and linter functionality by connecting a CodeMirror 6 editor with a language server over WebSocket.
 
 [How It Works](https://hjr265.me/blog/codemirror-lsp/)
 
@@ -42,14 +40,6 @@ var view = new EditorView({
 	})
 });
 ```
-
-## Contributing
-
-Contributions are welcome.
-
-## Real World Uses
-
-https://user-images.githubusercontent.com/348107/120141150-c6bb9180-c1fd-11eb-8ada-9b7b7a1e4ade.mp4
 
 - [Toph](https://toph.co): Competitive programming platform. Toph uses Language Server Plugin for CodeMirror 6 with its integrated code editor.
 
