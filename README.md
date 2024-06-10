@@ -1,6 +1,6 @@
 # Language Server Plugin for Patch & CodeMirror 6
 
-This plugin enables custom stateful code completion, hover tooltips, and linter functionality by connecting a CodeMirror 6 editor with a language server over WebSocket.
+This plugin enables code completion, hover tooltips, and linter functionality by connecting a CodeMirror 6 editor with a language server over WebSocket. It extends the original implementation [here](https://github.com/FurqanSoftware/codemirror-languageserver) by allowing users to send custom workspace configuration notifications. 
 
 [How It Works](https://hjr265.me/blog/codemirror-lsp/)
 
